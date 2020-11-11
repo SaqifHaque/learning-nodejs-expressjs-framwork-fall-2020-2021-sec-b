@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <% for(const sub of data) { %>
+        <% for(const el of sub) { %>
+            <%= el %>
+                <% } %>
+                    <% } %>
+
+                        <a href="/logout">logout</a>
+</body>
+
+</html>
